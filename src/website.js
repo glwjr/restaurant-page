@@ -19,23 +19,22 @@ function createHeader() {
 
 function createNav() {
     const buttons = document.createElement("div");
-    const homeBtn = document.createElement("button");
-    const menuBtn = document.createElement("button");
-    const contactBtn = document.createElement("button");
-
     buttons.classList.add("buttons");
-    homeBtn.textContent = "Home";
-    menuBtn.textContent = "Menu";
-    contactBtn.textContent = "Contact";
 
+    const homeBtn = document.createElement("button");
+    homeBtn.textContent = "Home";
     homeBtn.addEventListener('click', () => {
         loadHome();
     });
 
+    const menuBtn = document.createElement("button");
+    menuBtn.textContent = "Menu";
     menuBtn.addEventListener('click', () => {
         loadMenu();
     });
 
+    const contactBtn = document.createElement("button");
+    contactBtn.textContent = "Contact";
     contactBtn.addEventListener('click', () => {
         loadContact();
     });
