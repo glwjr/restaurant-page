@@ -57,7 +57,7 @@ function createContainer() {
 function createFooter() {
     const footer = document.createElement("div");
     footer.classList.add("footer");
-    footer.textContent = "Created by Gary White";
+    footer.innerHTML = "Created with ♥ by Gary White";
 
     return footer;
 }
