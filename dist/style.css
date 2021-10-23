@@ -67,6 +67,11 @@ button {
 button:hover {
     border-bottom: 2px solid white;
     transition-duration: 0.2s;
+    transform: translateY(-2px);
+}
+
+button:active {
+    transform: translateY(2px);
 }
 
 .cursive {
@@ -98,6 +103,12 @@ button:hover {
 .main {
     margin: auto;
     max-width: 700px;
+}
+
+#map {
+    width: 50%;
+    height: 50%;
+    margin-top: 1rem;
 }
 
 .footer {

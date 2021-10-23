@@ -13,10 +13,10 @@ function createContact() {
     paraOne.textContent = "(555) 555-5555";
 
     const paraTwo = document.createElement("p");
-    paraTwo.textContent = "555 North Hemingway Street, Apple Valley, CA 12345"
+    paraTwo.textContent = "123 North Hemingway Street, Apple Valley, CA 12345"
 
     const paraThree = document.createElement("p");
-    paraThree.textContent = "Order online with DoorDash or Uber Eats"
+    paraThree.innerHTML = `<img id="map" src="./images/map.png">`
 
     contact.appendChild(sectionTitle);
     contact.appendChild(separator);
