@@ -9,7 +9,7 @@ function createHeader() {
     header.classList.add("header");
    
     name.classList.add("restaurant-name");
-    name.textContent = "Amaru's Kitchen";
+    name.textContent = "Zora's Kitchen";
 
     header.appendChild(name);
     header.appendChild(createNav());
